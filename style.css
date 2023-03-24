@@ -1,0 +1,143 @@
+*{
+  margin: 0%;
+}
+body{
+  background-color:rgba(0,0,0, 0.7);
+  color: white;
+}
+.rectangle {
+  height: 400px;
+  width: 700px;
+  background-color:white;
+  border: 10px solid silver;
+  position: absolute;
+  left: 400px;
+  top:100px;
+}
+.screen{
+  position: absolute;
+  top:33%;
+  left:45%;
+  color: rgba(0,0,0, 0.7);
+  font-size: 60px;
+}
+
+#rectangle{
+  position: absolute;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+#row1{
+  display:flex;
+}
+#row2{
+  display:flex;
+  margin-top: 48%;
+}
+#row3{
+  display:flex;
+  margin-left: 30%;
+}
+#seat1{
+  position: absolute;
+  left:490px;
+  top:70%;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat2{
+  position: absolute;
+  left:590px;
+  top:70%;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat3{
+  top:70%;
+  position: absolute;
+  left:690px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat4{
+  position: absolute;
+  left:790px;
+  top:70%;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat5{
+  position: absolute;
+  left:890px;
+  top:70%;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat6{
+  position: absolute;
+  left:490px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat7{
+  position: absolute;
+  left:590px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat8{
+  position: absolute;
+  left:690px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat9{
+  position: absolute;
+  left:790px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#seat10{
+  position: absolute;
+  left:890px;
+  cursor: pointer;
+  font-size: 60px;
+}
+#active-seat-count{
+  font-size: 30px;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 45%;
+}
+.seat {
+  width: 100px;
+  height: 100px;
+  border: 3px solid silver;
+  margin: 30px;
+  text-align: center;
+}
+.active {
+  background-color: #39e75f;
+}
+#active-seat-cost{
+  font-size: 30px;
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 35%;
+}
+#deselect-all-button{
+  font-size: 30px;
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 48%;
+  width: 13.888%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: white;
+  border: none;
+}
+#deselect-all-button:hover{
+  background-color:rgba(255,0,0, 0.7);
+  color: gold;
+}
